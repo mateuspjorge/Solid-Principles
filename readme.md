@@ -35,3 +35,11 @@ E como isso poderia ajudar-nos na construção de um software melhor?
 Simplificando esse princípio, classes deveriam ser abertas para extensão, mas fechadas para modificação. Ao fazer isso,
 paramos de modificar o código existente e causar novos bugs potenciais. Claro, a única exceção à regra é ao consertar
 erros no código existente.
+
+---
+
+## Liskov Substitution Principle (Princípio da Substituição de Liskov)
+
+O próximo da lista é Liskov Substitution, sem dúvidas é o princípio mais complexo dos outros 5. Se uma classe A é um
+subtipo da classe B, então nos deveriamos ter capacidade para substituir B com A sem implicar no comportamento do nosso
+programa.

@@ -59,7 +59,7 @@ public class Order {
     }
 
     public boolean hasItems() {
-        return items == null || items.isEmpty();
+        return items != null && !items.isEmpty();
     }
 
 }
