@@ -43,3 +43,13 @@ erros no código existente.
 O próximo da lista é Liskov Substitution, sem dúvidas é o princípio mais complexo dos outros 5. Se uma classe A é um
 subtipo da classe B, então nos deveriamos ter capacidade para substituir B com A sem implicar no comportamento do nosso
 programa.
+
+---
+
+## Liskov Substitution Principle (Princípio da Substituição de Liskov)
+
+O "I" em SOLID refere-se a interface segregation, e significa que interfaces maiores devem ser divididas em interfaces
+menores. Ao fazer isso, garantimos que a implementação de classes só precisam se preocupar apenas com métodos que são do
+interesse dela.
+
+---
