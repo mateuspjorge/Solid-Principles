@@ -9,11 +9,11 @@ Este documento consiste na abordagem dos princípios SOLID.
 SOLID é um acrónimo que representa cinco princípios de design de software destinados a fazer o código mais
 compreensível, flexível e escalável:
 
-1. **S** - Single Responsibility Principle (Princípio da Responsabilidade Única)
-2. **O** - Open/Closed Principle (Princípio do Aberto/Fechado)
-3. **L** - Liskov Substitution Principle (Princípio da Substituição de Liskov)
-4. **I** - Interface Segregation Principle (Princípio da Segregação de Interface)
-5. **D** - Dependency Inversion Principle (Princípio da Inversão de Dependência)
+1. **S** — Single Responsibility Principle (Princípio da Responsabilidade Única)
+2. **O** — Open/Closed Principle (Princípio do Aberto/Fechado)
+3. **L** — Liskov Substitution Principle (Princípio da Substituição de Liskov)
+4. **I** — Interface Segregation Principle (Princípio da Segregação de Interface)
+5. **D** — Dependency Inversion Principle (Princípio da Inversão de Dependência)
 
 ---
 
@@ -46,10 +46,17 @@ programa.
 
 ---
 
-## Liskov Substitution Principle (Princípio da Substituição de Liskov)
+## Interface Segregation Principle (Princípio da Segregação de Interface)
 
 O "I" em SOLID refere-se a interface segregation, e significa que interfaces maiores devem ser divididas em interfaces
 menores. Ao fazer isso, garantimos que a implementação de classes só precisam se preocupar apenas com métodos que são do
 interesse dela.
 
 ---
+
+## Dependency Inversion Principle (Princípio da Inversão de Dependência)
+
+O princípio de inversão de dependência refere-e ao desacoplamento de módulos de software. Dessa forma, em vez de módulos
+de alto nível dependendo de módulos baixo nível, ambos dependerão de abstrações.
+
+Para que uma classe dependa de uma abstração e não de uma implementação.
